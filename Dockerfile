@@ -1,4 +1,4 @@
-FROM mongo:3.2.17
+FROM mongo:3.4.10
 
 # backups to Amazon S3
 RUN apt-get update && apt-get install -y python-pip && apt-get install -y cron && rm -rf /var/lib/apt/lists/*
